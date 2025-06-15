@@ -1,4 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 function LinkButton({ children, to }) {
   const navigate = useNavigate();
